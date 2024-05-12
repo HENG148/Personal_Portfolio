@@ -9,7 +9,8 @@ module.exports = {
         'title': '#c9088c',
         'content': '#0077b5',
         'white-gray': '#f5f5f5',
-        'white': '#fff'
+        'white': '#fff',
+        'warning': 'red',
       },
       fontFamily: {
         'main': ['Poppins', 'Open-sans', 'Inter', 'sans-serif'],

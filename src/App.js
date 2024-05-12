@@ -7,6 +7,7 @@ import MainProject from "./components/Projects/Main";
 import NotFound from "./components/NotFound";
 import Facebook from "./components/Projects/ProjectPage/Facebook";
 import Portfolio from "./components/Projects/ProjectPage/Portfolio";
+import BreadcrumbsPage from "./components/Projects/Breadcrumb";
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
               }
             }}
           >
+            <div className='ml-[15rem]'>
+              <BreadcrumbsPage />
+            </div>
 
           </div>
           <Routes>

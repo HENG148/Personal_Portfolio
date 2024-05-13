@@ -3,15 +3,16 @@ import FacebookIcon from '../../../assets/icon/Facebook-Logosu.png'
 import ReactJs from '../../../assets/ProgrammingIcon/React-icon.svg.png'
 import Figma from '../../../assets/ProgrammingIcon/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.webp'
 import Flaticon from '../../../assets/ProgrammingIcon/images.png'
-import NextJS from '../../../assets/ProgrammingIcon/next-js.svg'
+import NextJs from '../../../assets/ProgrammingIcon/next-js.svg'
 import Tailwind from '../../../assets/ProgrammingIcon/Tailwind_CSS_Logo.svg.png'
+// import EmailJs from '../../../assets/ProgrammingIcon/HSitAZAV_400x400.jpg'
 
 
 export default function Facebook() {
 
   const technology = [
     { src: ReactJs, alt: 'React.JS', name: 'React.JS' },
-    { src: NextJS, alt: 'Next.JS', name: 'Next.JS' },
+    { src: NextJs, alt: 'Next.JS', name: 'Next.JS' },
     { src: Tailwind, alt: 'Tailwind', name: 'Tailwind' },
     { src: Figma, alt: 'Figma', name: 'Fimga' },
     { src: Flaticon, alt: 'Flaticon', name: 'Flaticon' },
@@ -28,12 +29,12 @@ export default function Facebook() {
               alt='FacebookIcon' />
           </div>
         </div>
-        <h1 className='text-[1.4rem] font-medium mt-4'>Facebook Clone</h1>
+        <h1 className='text-[1.3rem] font-medium mt-4'>Facebook Clone</h1>
         <p className='text-[1.1rem] mt-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <div className='mt-6'>
-          <h1 className='text-[1.25rem] mb-2'>Technologies : </h1>
+          <h1 className='text-[1.15rem] mb-2'>Technologies : </h1>
 
           <div className='flex items-center gap-[3rem]'>
             {technology.map(({ src, alt, name }, index) => (

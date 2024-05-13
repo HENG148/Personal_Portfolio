@@ -8,6 +8,7 @@ import NotFound from "./components/NotFound";
 import Facebook from "./components/Projects/ProjectPage/Facebook";
 import Portfolio from "./components/Projects/ProjectPage/Portfolio";
 import BreadcrumbsPage from "./components/Projects/Breadcrumb";
+import FlexifyStore from "./components/Projects/ProjectPage/FlexifyStore";
 
 
 function App() {
@@ -42,11 +43,22 @@ function App() {
             />
             <Route
               index
-              path="/mainproject" element={<MainProject />}
+              path="/mainproject"
+              element={<MainProject />}
               errorElement={ <NotFound /> }
             />
-            <Route path="Home/project/Facebook_Clone" element={<Facebook />} />
-            <Route path="Home/projects/Portfolio" element={<Portfolio />} />
+            <Route
+              path="Home/projects/Facebook_Clone"
+              element={<Facebook />}
+            />
+            <Route
+              path="Home/projects/Personal_Portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              path="Home/projects/Flexify_Store"
+              element={<FlexifyStore />}
+            />
           </Routes>
         </Router>
       </div>

@@ -15,7 +15,10 @@ module.exports = {
       fontFamily: {
         'main': ['Poppins', 'Open-sans', 'Inter', 'sans-serif'],
         'intro': ['Italic', 'sans-serif']
-      }
+      },
+      // screens: {
+      //   'xs': '480px', // media (min)
+      // }
     },
   },
   plugins: [],

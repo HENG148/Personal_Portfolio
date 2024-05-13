@@ -1,8 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import myOwn from "../../assets/387567250_1121570512143527_5913298776363511667_n.jpg";
+import myOwn from "../../assets/Own_Profile.jpg";
 import ContactApp from './ContactApp';
-import cv from '../../assets/CurriculumVitae.pdf'
 
 export default function Introduce() {
 
@@ -35,7 +34,6 @@ export default function Introduce() {
                   Web </span>Developer {''}
                 <span
                   className='web-span text-[60px] font-bold text-content'
-                // style={{ fontSize: '60px', fontWeight: 'bold', color: '#0077b5' }}
                 >
                   {text}
                 </span>

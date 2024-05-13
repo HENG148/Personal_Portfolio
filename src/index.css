@@ -137,8 +137,6 @@ input::placeholder {
   color: #000;
 }
 
-
-
 textarea::placeholder {
   font-size: 1.1rem;
   /* padding-top: 1rem; */
@@ -158,61 +156,4 @@ textarea::placeholder {
   height: 2px;
   width: 100%;
   background-color: #000;
-}
-
-@media only screen and (max-width: 768px) {
-
-/* Header  */
-  .main-header {
-    gap: 4rem;
-  }
-  .portfolio {
-   font-size: 13px;
-  }
-  .nav-bar {
-    max-width: 100%;
-    gap: 2rem;
-  }
-  .header-button {
-    width: 100%;
-  }
-
-/* Introduce */
-
-  .main-intro {
-    margin-left: 12rem;
-    margin-top: -3rem;
-  }
-  .web-text {
-    font-size: 4rem;
-    /* margin-left: 7rem; */
-    width: 30rem;
-  }
-  .web-span {
-    font-size: 45px;
-  }
-
-  .main-about {
-    margin-left: -2rem;
-  }
-
-
-  .about-title {
-    justify-content: center;
-  }
-  .about-img {
-    display: none;
-  }
-  .about-text {
-    width: 44rem;
-    font-size: 1.2rem;
-    /* margin-right: 3rem; */
-  }
-  .about-tabs {
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-  .about-tabs-intro {
-    font-size: 1.2rem;
-  }
 }

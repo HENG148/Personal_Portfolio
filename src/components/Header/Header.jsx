@@ -30,10 +30,10 @@ export default function Header() {
 
         <div className='main-nav-bar'>
           <div className='nav-bar font-medium max-w-screen-md'>
-            <button className='navbar-click' onClick={() => handleScrollToStart('Home')}>Home</button>
+            <button onClick={() => handleScrollToStart('Home')}>Home</button>
             <button onClick={() => handleScrollToStart('About')}>About</button>
             <button onClick={() => handleScrollToStart('Project')}>Projects</button>
-            <button className='header-button' onClick={() => handleScrollToStart('Contacts')}>Contact</button>
+            <button onClick={() => handleScrollToStart('Contacts')}>Contact</button>
           </div>
         </div>
         <a href='https://t.me/HenGApril' className='telegram'>

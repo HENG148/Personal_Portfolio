@@ -4,6 +4,7 @@ import Introduce from '../../components/Introduce/Intro'
 import ContactMe from '../../components/Contact/Page'
 import AboutMe from '../../components/About/AboutMe'
 import MainProject from '../../components/Projects/Main'
+import NotFound from '../../components/NotFound'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <AboutMe />
         <MainProject />
         <ContactMe />
+        <NotFound />
       </div>
     </>
   )

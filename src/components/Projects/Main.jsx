@@ -31,9 +31,9 @@ export default function MainProject() {
               ))}
             </TabList>
 
-            <TabPanels>
+            <TabPanels id='allProject'>
               <TabPanel>
-                <AllProject id="allProjects"/>
+                <AllProject/>
               </TabPanel>
               <TabPanel>
                 <WebProject />

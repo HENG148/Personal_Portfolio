@@ -20,7 +20,7 @@ const BreadcrumbsPage = () => {
     })
   
   return (
-    <div className="nav-link">
+    <div>
       {crumbPath}
     </div>
   )

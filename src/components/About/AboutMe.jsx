@@ -1,5 +1,5 @@
 import React from 'react'
-import myOwn from '../../assets/387567250_1121570512143527_5913298776363511667_n.jpg';
+import myOwn from '../../assets/Own_Profile.jpg';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import ConImage from '../../assets/icon/badge.png';
 import ExpIcon from '../../assets/icon/pc.png';
@@ -82,66 +82,66 @@ export default function AboutMe() {
                     </div>
                       
                     <div className={`flex items-center mt-3`}>
-                        <img
-                          className='w-8'
-                          src={ConImage}
-                          alt='Congratulation-Icon'
-                        ></img>
-                        <div className='ml-8'>
-                          <h3
-                            className='text-[1.2rem] font-medium'
-                          >High School | {schoolClass[1]}</h3>
-                          <ol
-                            className='ml-[1.3rem]'
-                            style={{ listStyleType: 'disc' }}>
-                            <li>Bacll Certificate</li>
-                            <li>Deploma Certificate</li>
-                          </ol>
-                        </div>
+                      <img
+                        className='w-8'
+                        src={ConImage}
+                        alt='Congratulation-Icon'
+                      ></img>
+                      <div className='ml-8'>
+                        <h3
+                          className='text-[1.2rem] font-medium'
+                        >High School | {schoolClass[1]}</h3>
+                        <ol
+                          className='ml-[1.3rem]'
+                          style={{ listStyleType: 'disc' }}>
+                          <li>Bacll Certificate</li>
+                          <li>Deploma Certificate</li>
+                        </ol>
+                      </div>
                     </div>
 
-                      <div className={`flex items-center mt-3`}>
-                        <img
-                          className='w-8'
-                          src={ConImage}
-                          alt='Congratulation-Icon'
-                        ></img>
-                        <div className='ml-8'>
-                          <h3
-                            className='text-[1.2rem] font-medium'
-                          >English Class | {schoolClass[2]}</h3>
-                          <ol style={{marginLeft: '1.3rem', listStyleType: 'disc' }}>
-                            <li>IELTS</li>
-                            <li>Level 12 Certificate</li>
-                          </ol>
-                        </div>
+                    <div className={`flex items-center mt-3`}>
+                      <img
+                        className='w-8'
+                        src={ConImage}
+                        alt='Congratulation-Icon'
+                      ></img>
+                      <div className='ml-8'>
+                        <h3
+                          className='text-[1.2rem] font-medium'
+                        >English Class | {schoolClass[2]}</h3>
+                        <ol style={{marginLeft: '1.3rem', listStyleType: 'disc' }}>
+                          <li>IELTS</li>
+                          <li>Level 12 Certificate</li>
+                        </ol>
+                      </div>
                     </div>
                   </div>
                 </TabPanel>
                 <TabPanel>
-                    <div className='flex gap-8'>
-                      <div className='exp-icon'>
-                        <img
-                          className='w-[1.8rem]'
-                          src={ExpIcon}
-                          alt='Experience-Icon'
-                        />
-                      </div>
-                      <div className='exp-intro text-[17px] leading-8'>
-                        <h1
-                          className='text-[1.2rem] font-medium'>MAQSU ( Software Company )</h1>
-                        <p className='font-medium'>
-                          <span className='text-[1.2rem] font-medium'>Details: </span>
+                  <div className='flex gap-8'>
+                    <div className='exp-icon'>
+                      <img
+                        className='w-[1.8rem]'
+                        src={ExpIcon}
+                        alt='Experience-Icon'
+                      />
+                    </div>
+                    <div className='exp-intro text-[17px] leading-8'>
+                      <h1
+                        className='text-[1.2rem] font-medium'>MAQSU ( Software Company )</h1>
+                      <p className='font-medium'>
+                        <span className='text-[1.2rem] font-medium'>Details: </span>
                           March 2023 to September 2023 ( 7 Months )
-                        </p>
-                        <ol
-                          className='pl-5 font-medium'
-                          style={{ listStyleType: 'disc' }}
-                        >
-                          <li>Amret ( Bank ): MockUp, UX/UI, Front-end</li>
-                          <li>Chip Mong ( Bank ): MockUp, Front-end</li>
-                        </ol>
-                      </div>
+                      </p>
+                      <ol
+                        className='pl-5 font-medium'
+                        style={{ listStyleType: 'disc' }}
+                      >
+                        <li>Amret ( Bank ): MockUp, UX/UI, Front-end</li>
+                        <li>Chip Mong ( Bank ): MockUp, Front-end</li>
+                      </ol>
+                    </div>
                   </div>
                 </TabPanel>
               </TabPanels>

@@ -25,8 +25,8 @@ export default function Introduce() {
 
     return (
       <>
-        <div className='mt-[8rem] mb-[8rem]' data-aos="fade-up">
-          <div className='main-intro flex justify-center gap-[15rem]'>
+        <div className='grid grid-cols-1 md:grid-cols2 mt-[8rem] mb-[8rem]' data-aos="fade-up">
+          <div className=' main-intro flex justify-center gap-[15rem]'>
             <div className='mt-[1.3rem]'>
               <h1
                 className='web-text w-[38rem] text-[5rem] font-bold leading-[7rem] max-w-3xl'>

@@ -38,9 +38,9 @@ export default function Header() {
         </div>
         <a href='https://t.me/HenGApril' className='telegram'>
           <FaTelegramPlane
-          style={{
-            fontSize: '1.8rem',
-            marginLeft: '6rem',
+            style={{
+              fontSize: '1.8rem',
+              marginLeft: '6rem',
             }}
           />
         </a>

@@ -52,6 +52,7 @@ export default function MessageMe() {
 
   const {
     register,
+    // reset,
     handleSubmit,
     formState: { errors },
   } = useForm();
@@ -123,6 +124,7 @@ export default function MessageMe() {
             data-aos="fade-up"
             className='s mt-2 cursor-pointer'
             type='submit'
+            // onClick={() => reset()}
           >Send Message</button>
         </form>
       </div>
